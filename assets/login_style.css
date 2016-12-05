@@ -1,0 +1,74 @@
+.content_form{
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 40px;
+    box-sizing: content-box;
+
+}
+.log_form{
+margin: 0px;
+outline: medium none;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+font: 13px/1.55 "Open Sans",Helvetica,Arial,sans-serif;
+color: #666;
+}
+
+.log_form .header{
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: none repeat scroll 0% 0% rgba(248, 248, 248, 0.9);
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+}
+.log_form fieldset{
+display: block;
+padding: 25px 30px 25px;
+border: medium none;
+background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.9);
+}
+.log_form section{
+margin-bottom: 20px;
+min-height:55px;
+
+}
+
+.log_form input{
+border-color: #E5E5E5;
+transition: border-color 0.3s ease 0s;
+display: block;
+box-sizing: border-box;
+width: 100%;
+height: 39px;
+padding: 8px 10px;
+outline: medium none;
+border-width: 2px;
+border-style: solid;
+border-radius: 0px;
+background: none repeat scroll 0% 0% #FFF;
+font: 15px/19px "Open Sans",Helvetica,Arial,sans-serif;
+color: #404040;
+-moz-appearance: none;
+}
+.log_form .button{
+background-color: #97c205;
+opacity: 0.8;
+transition: opacity 0.2s ease 0s;
+float: right;
+height: 39px;
+overflow: hidden;
+margin: 10px 0px 0px 20px;
+padding: 0px 25px;
+outline: medium none;
+border: 0px none;
+font: 300 15px/39px "Open Sans",Helvetica,Arial,sans-serif;
+text-decoration: none;
+color: #FFF;
+cursor: pointer;
+width:80px;
+
+}
+.log_form .error{
+color:red;
+}
