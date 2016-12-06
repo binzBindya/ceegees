@@ -104,10 +104,10 @@ success: function (dataCheck) {
             $('#myForm')[0].reset();
                        $('input[type="text"]', this).val('');
                      },
-                     ,
+                     /*,
         error: function(){
             alert('error');
-        }
+        }*/
 });
 }
 else{
